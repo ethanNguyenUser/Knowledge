@@ -8,7 +8,7 @@ LANDING_BUTTON = "Open"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "Ethan's Notes"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "Knowledge.md"
+LANDING_PAGE = "Knowledge"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Ethan Nguyen's Notes"
 PYTHON_VERSION = "3.8"
@@ -67,8 +67,8 @@ GRAPH_OPTIONS = """
         	interaction: {
         		hover: true,
         	},
-        	height: "100%",
-        	width: "100%",
+        	height: "40%",
+        	width: "40%",
         	physics: {
         		solver: "repulsion",
         	},
