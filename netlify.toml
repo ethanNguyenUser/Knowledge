@@ -24,7 +24,7 @@ SITE_URL = "https://ethanuser.netlify.app/"
 TIMEZONE = "America/Los_Angeles"
 ZOLA_VERSION = "0.15.2"
 # (Optional, default title) How to sort notes inside each section on the right sidebar ("date" or "title"). Subsections on side bar are sorted by title, the sort order cannot be changed.
-SORT_BY = "title"
+SORT_BY = "date"
 # (Optional) Google Analytics Measurement ID
 GANALYTICS = ""
 # (Optional, default true) Slugify URLs. Put "" to disable.
@@ -36,7 +36,7 @@ PAGE_GRAPH = "y"
 # (Optional, default false) Whether sidebar sections should be collapsed by default.
 SIDEBAR_COLLAPSED = ""
 # (Optional, default blank) Additional footer content.
-FOOTER = "Made by Ethan Nguyen (2023)"
+FOOTER = "Made by Ethan Nguyen (2023) "
 # (Optional, default main) Root section name.
 ROOT_SECTION_NAME = "main"
 # (Optional) visjs graph options. Can remove if desired.
@@ -69,8 +69,11 @@ GRAPH_OPTIONS = """
         	},
         	height: "100%",
         	width: "100%",
-        	physics: {
-        		solver: "repulsion",
-        	},
+        	"physics": {
+  				"barnesHut": {
+  					"avoidOverlap": 1
+  				},
+  				"minVelocity": 0.75
+  			}
         }
         """
