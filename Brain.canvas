@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"Brain.md","id":"d27df50d4275beba","x":-620,"y":-340,"width":340,"height":400},
+		{"id":"ccf62f560b45efd1","x":-100,"y":220,"width":400,"height":400,"type":"file","file":"Hindbrain.md"},
+		{"id":"2827f666764b166c","x":-650,"y":220,"width":400,"height":400,"type":"file","file":"Midbrain.md"},
+		{"id":"13f2ef33fc11d2fb","x":-1800,"y":220,"width":400,"height":400,"type":"file","file":"Telencephalon.md"},
+		{"type":"file","file":"Forebrain.md","id":"388420e2ab598f4b","x":-1200,"y":220,"width":400,"height":400},
+		{"id":"35ebf4e3b6e463fb","x":-1800,"y":-340,"width":400,"height":400,"type":"file","file":"Diencephalon.md"}
+	],
+	"edges":[
+		{"id":"1df6e0e8740b151c","fromNode":"d27df50d4275beba","fromSide":"left","toNode":"388420e2ab598f4b","toSide":"top"},
+		{"id":"88a97a943a8eebfe","fromNode":"d27df50d4275beba","fromSide":"bottom","toNode":"2827f666764b166c","toSide":"top"},
+		{"id":"189936884ac2c56b","fromNode":"d27df50d4275beba","fromSide":"right","toNode":"ccf62f560b45efd1","toSide":"top"}
+	]
+}

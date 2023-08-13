@@ -1,0 +1,6 @@
+```smiles
+C[C@@H](C(=O)O)N
+```
+(Ala) A
+## Properties
+* Aliphatic

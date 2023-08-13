@@ -1,0 +1,1 @@
+Receives visual sensory input

@@ -1,0 +1,1 @@
+States that alkenes form to have more substitution in [[elimination]] reactions
