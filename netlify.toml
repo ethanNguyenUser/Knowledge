@@ -70,10 +70,14 @@ GRAPH_OPTIONS = """
         	height: "100%",
         	width: "100%",
         	"physics": {
-  				"barnesHut": {
-  					"avoidOverlap": 1
-  				},
-  				"minVelocity": 0.75
+    			"barnesHut": {
+    				"gravitationalConstant": -26720,
+    				"centralGravity": 0.2,
+    				"springLength": 415,
+    				"springConstant": 0.355,
+    				"avoidOverlap": 1
+    			},
+    			"minVelocity": 0.75
   			}
         }
         """
