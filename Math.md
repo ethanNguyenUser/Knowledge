@@ -1,3 +1,4 @@
+#Math 
 ### [[LaTeX Practice]]
 ### Math topics:
 1. [[Set Theory]]

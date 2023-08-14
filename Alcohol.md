@@ -4,12 +4,12 @@ O[R]
 ## Reactions
 * [[Alcohol to Metal Alkoxide]]
 * [[Alcohol to Alkyl Halide]]
-* [[Alcohol to Alkyl Halide Without Rearrangements]]
+* [[Alcohol to Alkyl Bromide]]
 * [[Alcohol to Alkyl Chloride]]
+* [[Alcohol to Alkyl Sulfonate]]
 * [[Alcohol to Alkene]]
-* [[Alcohol to Carboxylic Acid]]
 * [[Alcohol to Aldehyde]]
-* Alcohol to 
+* [[Alcohol to Carboxylic Acid]]
 ```leaflet
 id: alcohol pathways
 image: alcohol pathways.svg
