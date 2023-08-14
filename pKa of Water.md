@@ -1,0 +1,1 @@
+Organic chemistry textbooks often list the pKa of water to be ~15.7, when in reality, it should be 14 as discussed in [this ACS article](https://pubs.acs.org/doi/pdf/10.1021/acs.jchemed.6b00623#:~:text=Organic%20chemistry%20texts%20feature%20pKa,texts%20are%2014.00%20and%200.00.).
