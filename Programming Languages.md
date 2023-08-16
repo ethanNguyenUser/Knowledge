@@ -1,3 +1,4 @@
-[[C++]]
-[[Python]]
-[[Mathematica]]
+## Topics
+* [[C++]]
+* [[Python]]
+* [[Mathematica]]
