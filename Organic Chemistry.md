@@ -1,3 +1,4 @@
+#Chemistry
 ## Types of Reactions
 * [[Addition]]
 * [[Elimination]]

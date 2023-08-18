@@ -1,3 +1,0 @@
-## Reagents
-$\displaystyle \ce{}$
-## Mechanism

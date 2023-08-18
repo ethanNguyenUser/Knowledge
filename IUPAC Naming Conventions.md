@@ -1,6 +1,7 @@
 ---
 alias: International Union of Pure and Applied Chemistry
 ---
+#Chemistry 
 ## How to name molecules:
 1. Identify the longest carbon chain containing the highest-order functional group
 	1. For example, the longest carbon chain is 
