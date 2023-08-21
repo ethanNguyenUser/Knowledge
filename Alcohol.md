@@ -1,3 +1,4 @@
+#Chemistry
 ```smiles
 O[R]
 ```
@@ -11,3 +12,5 @@ O[R]
 7. [[Alcohol to Carboxylic Acid]]
 8. [[Alcohol to Alkoxide]]
 ![[alcoholReactions.svg|800]]
+## Types
+* [[Glycol]]

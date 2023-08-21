@@ -1,6 +1,7 @@
 ---
 alias: Gas Constant
 ---
+#Physics #Chemistry
 $$
 \begin{align}
 R  & =\mathrm{8.314\,J\,mol^{-1}\,K^{-1}} \\

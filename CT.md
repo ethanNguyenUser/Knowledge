@@ -1,6 +1,7 @@
 ---
 alias: Computed Tomography, CAT, Computed Axial Tomography
 ---
+#Biology
 ## AKA:
 * Computed Tomography
 * Computed Axial Tomography (CAT)

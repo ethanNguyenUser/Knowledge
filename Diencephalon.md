@@ -1,3 +1,4 @@
+#Biology
 ## Parts
 * [[Thalamus]]
 * [[Hypothalamus]]

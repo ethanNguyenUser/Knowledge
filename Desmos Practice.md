@@ -1,3 +1,4 @@
+#Computers
 [Github Repo](https://github.com/Nigecat/obsidian-desmos)
 #### Graph 1
 ```desmos-graph

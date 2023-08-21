@@ -1,6 +1,8 @@
+#Biology
 [[Embryonic Brain]]
 [[Brain Mapping]]
 ## Parts:
 * [[Forebrain]]
-* [[Midbrain]]
-* [[Hindbrain]]
+* [[Brainstem]]
+	* [[Midbrain]]
+	* [[Hindbrain]]

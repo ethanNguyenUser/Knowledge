@@ -13,3 +13,4 @@
 * [[Polar Amino Acids]]
 * [[Charged Amino Acids]]
 ## [Mnemonic](https://www.youtube.com/watch?v=PmbcA1Sav7s)
+

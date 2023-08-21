@@ -1,21 +1,15 @@
+---
+alias: Mathematics
+---
 #Math 
 ### [[LaTeX Practice]]
-### Math topics:
-1. [[Set Theory]]
-2. [[Logic]]
-3. [[Counting]]
-4. [[Recurrence Relations]]
-5. [[Graph Theory]]
-6. [[Probability]]
-7. [[Distributions]]
-8. [[Algebra]]
-9. [[Trigonometry]]
-10. [[Geometry]]
-11. [[Sequences]]
-12. [[Series]]
-13. [[Calculus]]
-14. [[Linear Algebra]]
-15. [[Differential Equations]]
-16. [[Complex Algebra]]
-17. [[Fourier Transform]]
-18. [[Uncertainty]]
+## Topics
+* [[Logic]]
+* [[Number Theory]]
+* [[Geometry]]
+* [[Algebra]]
+* [[Analysis]]
+* [[Discrete Mathematics]]
+* [[Statistics]]
+## Practice
+* [Yutsumura](https://yutsumura.com/)

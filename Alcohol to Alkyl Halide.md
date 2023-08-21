@@ -1,3 +1,4 @@
+#Chemistry
 ## Reagents
 $\displaystyle \ce{HX}$
 ## Mechanism
