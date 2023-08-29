@@ -1,5 +1,5 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ethanNguyenUser/obsidian-zola.git __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
@@ -76,7 +76,7 @@ GRAPH_OPTIONS = """
     				"springConstant": 0.43,
     				"avoidOverlap": 1
     			},
-				"maxVelocity": 1.5
+				"maxVelocity": 10
 			}
         }
         """

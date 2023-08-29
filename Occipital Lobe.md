@@ -1,1 +1,4 @@
+---
+alias: Visual Cortex
+---
 #Biology

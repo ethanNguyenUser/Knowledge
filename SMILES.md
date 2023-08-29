@@ -9,4 +9,3 @@ CCCC(C)=O
 ```smiles
 C=C.CCO.CCCl.CCBr.CC*.[H]C(C)=O.CCOS(=O)(=O)C1=CC=C(C)C=C1
 ```
-![[alcohol.svg]]

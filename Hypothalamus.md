@@ -12,3 +12,5 @@ Maintains homeostasis of the body
 * [[Anterior Hypothalamus]]
 ## Interactions
 * [[Hypophyseal Portal System]]
+## Secretions
+* [[GnRH]]

@@ -5,7 +5,7 @@
 * [[Schrodinger's Equation]]
 * [[Orbitals]]
 * [[Periodic Trends]]
-* [[Spectroscopy]]
+* [[Spectroscopy and Spectrometry]]
 * [[Gases]]
 * [[Thermochemistry]]
 * [[Thermodynamics]]

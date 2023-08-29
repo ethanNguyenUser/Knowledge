@@ -1,5 +1,5 @@
 ---
-alias: meta-CHloroperoxybenzoic Acid, m-CPBA
+alias: meta-Chloroperoxybenzoic Acid, m-CPBA
 ---
 #Chemistry
 ```smiles

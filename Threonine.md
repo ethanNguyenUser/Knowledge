@@ -3,5 +3,5 @@
 CC(O)C(N)C(O)=O
 ```
 (Thr) T
-## Properties:
+## Properties
 * Alcoholic
