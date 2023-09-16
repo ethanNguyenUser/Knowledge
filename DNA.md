@@ -1,0 +1,4 @@
+---
+alias: Deoxyribonucleic Acid
+---
+#Biology

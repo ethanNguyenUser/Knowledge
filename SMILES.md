@@ -1,11 +1,44 @@
 #Chemistry 
-[Wikipedia on Simplified Molecular Input Line-Entry System](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)
-[SMILES Guide](https://archive.epa.gov/med/med_archive_03/web/html/smiles.html)
+# [SMILES Guide](https://archive.epa.gov/med/med_archive_03/web/html/smiles.html)
+# [Wikipedia on Simplified Molecular Input Line-Entry System](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)
 You can also look up SMILES notation on Wikipedia for any particular compound
-[ChemMaxon -> SMILES](https://www.rcsb.org/chemical-sketch)
-```smiles
-CCCC(C)=O
+# [Drawer to SMILES](https://www.rcsb.org/chemical-sketch)
+# Example Molecules
+## Bonds
+### Single bond
+```
+CCCC
 ```
 ```smiles
-C=C.CCO.CCCl.CCBr.CC*.[H]C(C)=O.CCOS(=O)(=O)C1=CC=C(C)C=C1
+CCCC
+```
+### Double bond
+```
+CCC=C
+```
+```smiles
+CCC=C
+```
+### Triple bond
+```
+CCC#C
+```
+```smiles
+CCC#C
+```
+**Note**: for some reason,
+```
+CC#C
+```
+renders as
+```smiles
+CC#C
+```
+when it should look more like -<ins>=</ins>
+### Aromatic bond
+```
+c1ccccc1
+```
+```smiles
+c1ccccc1
 ```

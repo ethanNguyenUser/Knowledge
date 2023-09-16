@@ -1,2 +1,3 @@
 #Math 
 ## Topics
+* [[Prime Numbers]]

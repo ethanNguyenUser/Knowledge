@@ -1,0 +1,4 @@
+---
+alias: Chromosome
+---
+#Biology

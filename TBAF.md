@@ -3,7 +3,7 @@ alias: Tetrabutylammonium Fluoride
 ---
 #Chemistry
 ```smiles
-F[Si](C)(C)C(C)(C)C
+[F-][N+](CCCC)(CCCC)(CCCC)CCCC
 ```
 Used to remove [[Protecting Group|protecting groups]] from [[Alcohol|alcohol]]
 

@@ -1,5 +1,7 @@
 #Chemistry
-[Spectroscopy and Spectrometry Difference](https://goldbook.iupac.org/terms/view/S05848): Spectroscopy is the theoretical study of compounds' absorption or emittance of light while spectrometry is the practical measurement of this light to determine the identity of the compound.
+[Spectroscopy and Spectrometry Difference](https://goldbook.iupac.org/terms/view/S05848): 
+* Spectroscopy is the theoretical study of compounds' absorption or emittance of light
+* Spectrometry is the practical measurement of this light to determine the identity of the compound
 ## Types
 * [[Mass Spectrometry]]
 * [[IR Spectroscopy]]

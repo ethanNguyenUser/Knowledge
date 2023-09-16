@@ -31,4 +31,4 @@ Infrared light goes from 400 to 4000 $\displaystyle \mathrm{cm^{-1}}$, or
 Below 1400 $\displaystyle \mathrm{cm^{-1}}$ is the fingerprint region, which mostly contains bending vibrations and unfortunately a lot of noise
 ## IR Spectroscopy Chart
 
-![[ir spec.png|1200]]
+![[ir spec.png|1000]]

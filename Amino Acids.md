@@ -8,10 +8,14 @@
 * [[Basic Amino Acids]]
 * [[Acidic Amino Acids]]
 * [[Amide Amino Acids]]
-## By Polarity
+## Polarity
 * [[Non-Polar Amino Acids]]
 * [[Polar Amino Acids]]
 * [[Charged Amino Acids]]
+## Structure
+```smiles
+N[C@H]([R])C(=O)O
+```
 ## [Mnemonic](https://www.youtube.com/watch?v=PmbcA1Sav7s)
 **G**laciers in **A**laska **V**aliantly **L**ocate **I**solated **P**rowlers
 

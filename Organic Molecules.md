@@ -14,3 +14,5 @@
 * [[Amide]]
 * [[Amine]]
 * [[Nitrile]]
+* [[Vinyl]]
+* [[Allyl]]

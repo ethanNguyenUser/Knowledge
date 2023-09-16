@@ -6,3 +6,4 @@ C(C(=O)O)N
 ## Properties:
 * Aliphatic
 * Achiral
+* Produces along with [[Proline ]]kinks in $\displaystyle \beta$-pleated sheet
