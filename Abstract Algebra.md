@@ -6,3 +6,7 @@ alias: Algebraic Structures
 * [[Group Theory]]
 * [[Field Theory]]
 * [[Vector Spaces]]
+## Structures
+* [[Groups]]
+* [[Rings]]
+* [[Fields]]

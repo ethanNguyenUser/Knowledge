@@ -12,5 +12,6 @@ NMR places [[paramagnetic]] isotopes in a magnetic field $\displaystyle B_{0}$. 
 * $\displaystyle \nu$ is the [[precession]] frequency of the isotope
 * $\displaystyle \gamma$ is the [[gyromagnetic ratio]] of the isotope
 * $\displaystyle B_{0}$ is the magnetic field
+# Application
 ## [[1H NMR]]
 ## [[13C NMR]]

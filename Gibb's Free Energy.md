@@ -5,3 +5,5 @@
 * $R$ is the ideal gas constant, [[R]]
 * $\displaystyle K$ is the equilibrium constant
 * $\displaystyle T$ is the temperature
+## $\displaystyle \Delta G=\Delta G^{^\circ}+RT\ln Q=RT\ln \frac{Q}{K}$
+* $\displaystyle Q$ is the current balance of $\displaystyle \frac{[\text{product}]}{[\text{reactant}]}$

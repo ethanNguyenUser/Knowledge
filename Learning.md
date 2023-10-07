@@ -1,5 +1,5 @@
-## [Cognitive Load](https://www.youtube.com/watch?v=5PTkcGMrZ4I)
-#Knowledge
+# [Cognitive Load](https://www.youtube.com/watch?v=5PTkcGMrZ4I)
+#Biology
 ## Types of Cognitive Load
 * Intrinsic
 	* Dependent on the material (e.g. Calculus has a higher intrinsic cognitive load than biology)
@@ -16,3 +16,7 @@
 * How will the lecture end/what is the overall message?
 ##### Active Recall
 * Review the lecture content afterward (~ an hour after), doing problems or reviewing notes
+
+# Types of Learning
+## [[Associative Learning]]
+## [[Observational Learning]]

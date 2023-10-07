@@ -5,4 +5,3 @@ Topics:
 * [[Psychology]]
 * [[Sociology]]
 * [[Biochemistry]]
-* 

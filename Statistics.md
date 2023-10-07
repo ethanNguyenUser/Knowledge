@@ -1,5 +1,5 @@
 #Math 
 ## Topics
 * [[Probability]]
-* [[Distributions]]
+* [[Random Variables]]
 * [[Uncertainty]]

@@ -1,2 +1,2 @@
 #Biology
-Sperm that has undergone [[meiosis II]]
+Developing [[sperm]] that has undergone [[meiosis II]]

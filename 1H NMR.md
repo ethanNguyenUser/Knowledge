@@ -1,6 +1,6 @@
 #Chemistry 
 ## Integration
-* The area under a the curve by a signal corresponds proportionally to the number of hydrogens for that signal
+* The area under the curve for a signal corresponds proportionally to the number of hydrogens that emit that signal
 ## Peaks vs Signals
 * Each group of equivalent hydrogens produce exactly one signal
 * These signals can be composed of 1, 2, 3, 4, or multiple peaks. We then may say a signal is split into/has a multiplicity of a singlet, doublet, triplet, quartet, or multiplet

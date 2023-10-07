@@ -6,6 +6,7 @@
 * [[Orbitals]]
 * [[Periodic Trends]]
 * [[Spectroscopy and Spectrometry]]
+* [[Intermolecular Forces]]
 * [[Gases]]
 * [[Thermochemistry]]
 * [[Thermodynamics]]

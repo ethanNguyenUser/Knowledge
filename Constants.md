@@ -1,4 +1,8 @@
 #Physics #Chemistry
-* [[G]]
-* [[Gravitational Acceleration Constant]]
-* [[R]]
+## List
+* [[G]] $\displaystyle (G)$
+* [[Gravitational Acceleration Constant]] $\displaystyle (g)$
+* [[R]] ($\displaystyle R$)
+* [[Boltzmann Constant]] $\displaystyle (k_{B})$
+* [[Planck Constant]] $\displaystyle (h)$
+* [[Reduced Planck Constant]] $\displaystyle (\hbar)$

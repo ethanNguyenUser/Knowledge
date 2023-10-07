@@ -5,4 +5,5 @@
 * [[Electromagnetism]]
 * [[Waves]]
 * [[Thermodynamics]]
+* [[Statistical Mechanics]]
 * [[Astrophysics]]

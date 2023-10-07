@@ -1,2 +1,4 @@
 #Math
-[[Integration Techniques]]
+## Topics
+* [[Integration Techniques]]
+* [[Definite Integral]]

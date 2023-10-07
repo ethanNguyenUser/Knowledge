@@ -1,0 +1,4 @@
+#Physics
+## Types
+* [[Wavenumber]]
+* [[Frequency]]

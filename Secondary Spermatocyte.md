@@ -1,2 +1,2 @@
 #Biology 
-Sperm that has undergone [[meiosis I]]
+Developing [[sperm]] that has just undergone [[meiosis I]]

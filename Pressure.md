@@ -1,0 +1,12 @@
+#Physics
+## $\displaystyle P=\frac{F}{A}$
+* $\displaystyle F$ is force
+* $\displaystyle A$ is area
+## $\displaystyle P=\tau\left( \frac{ \partial \sigma }{ \partial V } \right)_{U}$
+* [[Statistical mechanics]] definition of pressure
+* $\displaystyle \tau$ is the fundamental temperature, one of the [[fundamental quantities]]
+* $\displaystyle \sigma$ is the fundamental entropy
+* $\displaystyle V$ is volume
+* $\displaystyle U$ is the energy of the system
+## $\displaystyle P=-\left( \frac{ \partial U }{ \partial V } \right)_{\sigma}$
+* 

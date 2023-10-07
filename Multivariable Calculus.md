@@ -190,5 +190,3 @@ $$
 			Proof: apply product rule to $\iiint_\mathscr{W}\text{div}(f\textbf{F})\space dV=\oint_{\partial\mathscr{W}}f\textbf{F}\cdot dS$
 		- $\iiint_\mathscr{W}f\Delta g\space dV=\oint_{\partial\mathscr{W}}f\space\nabla g\cdot dS-\iiint_\mathscr{W}\nabla f\cdot\nabla g\space dV$
 			Take $\textbf{F}=\nabla g$
-
-

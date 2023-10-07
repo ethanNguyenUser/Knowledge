@@ -3,7 +3,7 @@
 C(C(=O)O)N
 ```
 (Gly) G
-## Properties:
+## Properties
 * Aliphatic
 * Achiral
-* Produces along with [[Proline ]]kinks in $\displaystyle \beta$-pleated sheet
+* Produces along with [[Proline]] kinks in $\displaystyle \beta$-pleated sheet

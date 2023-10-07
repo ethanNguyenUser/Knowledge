@@ -1,5 +1,4 @@
 #Biochemistry 
-## 20 Amino Acids
 ## Types
 * [[Aliphatic Amino Acids]]
 * [[Aromatic Amino Acids]]
@@ -9,13 +8,15 @@
 * [[Acidic Amino Acids]]
 * [[Amide Amino Acids]]
 ## Polarity
-* [[Non-Polar Amino Acids]]
+* [[Nonpolar Amino Acids]]
 * [[Polar Amino Acids]]
 * [[Charged Amino Acids]]
 ## Structure
 ```smiles
 N[C@H]([R])C(=O)O
 ```
+* Follows L configuration in [[L,D System]]
+* All amino acids have S configuration except [[cysteine]] in [[R,S system]]
 ## [Mnemonic](https://www.youtube.com/watch?v=PmbcA1Sav7s)
 **G**laciers in **A**laska **V**aliantly **L**ocate **I**solated **P**rowlers
 

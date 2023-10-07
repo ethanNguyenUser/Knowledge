@@ -11,5 +11,6 @@ alias: Mathematics
 * [[Analysis]]
 * [[Discrete Mathematics]]
 * [[Statistics]]
-## Practice
+## Practice/Demos
 * [Yutsumura](https://yutsumura.com/)
+* [Neat Animations](https://en.wikipedia.org/wiki/User:LucasVB/Gallery)

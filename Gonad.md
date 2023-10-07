@@ -1,3 +1,7 @@
+---
+aliases:
+  - Gonads
+---
 #Biology 
 Sexual organ that produces gametes
 1. [[Testes]]
