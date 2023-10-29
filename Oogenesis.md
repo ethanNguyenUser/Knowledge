@@ -5,5 +5,4 @@
 2. [[Primary Oocyte]]
 	1. [[Meiosis I]]
 3. [[Secondary Oocyte]] and [[First Polar Body]]
-	1. [[Meiosis II]]
 5. [[Ovum]] and  [[Second Polar Body]]

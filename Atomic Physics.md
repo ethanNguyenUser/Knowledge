@@ -1,6 +1,6 @@
 #Physics 
 ## Topics
 * [[Orbitals]]
-* [[Schrodinger's Equation]]
+* [[Schrodinger Equation]]
 * [[Heisenberg's Uncertainty Principle]]
 * [[Bohr Model]]

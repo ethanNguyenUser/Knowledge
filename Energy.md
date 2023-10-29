@@ -1,4 +1,15 @@
 #Physics
+## Types
+* [[Kinetic Energy]]
+* [[Potential Energy]]
+* [[Internal Energy]]
+* [[Enthalpy]]
+* [[Gibb's Free Energy]]
+* [[Helmholtz Free Energy]]
+## Topics
+* [[Hamiltonian Mechanics|Hamiltonian]]
+* [[Entropy]]
+* [[Temperature]]
 # Classical
 # Quantum
 ## $\displaystyle E=h\nu=\hbar \omega$

@@ -1,0 +1,10 @@
+#Biology 
+Germ layer that develops into:
+1. Skin
+	1. Epidermis
+	2. Hair
+	3. Nails
+	4. Epithelia of nose, mouth, and anal canal
+2. Nervous system
+	1. Includes [[Adrenal Medulla]]
+3. Lens of eye

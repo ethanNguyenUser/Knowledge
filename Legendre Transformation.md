@@ -1,0 +1,5 @@
+---
+aliases:
+  - Legendre Transformations
+---
+#Physics 

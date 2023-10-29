@@ -1,6 +1,8 @@
 ---
 aliases:
   - Gaussian Distribution
+  - Normal Distributions
+  - Gaussian Distributions
 ---
 #Math
 ## $X \sim \mathcal{N}(\mu, \sigma^2)$

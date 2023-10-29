@@ -1,0 +1,5 @@
+---
+aliases:
+  - X Chromosomes
+---
+#Biology

@@ -1,0 +1,5 @@
+---
+aliases:
+  - Rectangular Coordinates
+---
+#Math 

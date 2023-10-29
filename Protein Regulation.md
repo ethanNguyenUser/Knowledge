@@ -1,0 +1,3 @@
+#Biochemistry 
+## Types
+* [[Allosteric Regulation]]

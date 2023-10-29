@@ -1,5 +1,5 @@
 #Math
-## $\displaystyle \int_{-\infty}^{\infty} f_{X}(x) \, \mathrm{d}x,\,f_{X}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^{2}}$
+## $\displaystyle \int_{-\infty}^{\infty} f_{X}(x) \, \mathrm{d}x=1,\,f_{X}(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma} \right)^{2}}$
 * $\displaystyle X$ is a random variable identically distributed to the [[Normal Distribution]]
 ## $\displaystyle \int_{0}^{\infty} x^{2n}e^{-x^{2}/a^{2}} \, \mathrm{d}x=\sqrt{ \pi } \frac{(2n)!}{n!}\left( \frac{a}{2} \right)^{2n+1}$
 * Derived by using [[Gamma Function]]

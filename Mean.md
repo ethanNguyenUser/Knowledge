@@ -2,11 +2,12 @@
 aliases:
   - Average
   - Expected Value
+  - Expectation
 ---
 #Math 
 ## $\displaystyle \mu=\mathbb{E}[X]={\left\langle{x}\right\rangle}=\bar{x}$
 
-## $\displaystyle \mathbb{E}[X]=\sum_{x \in S}p_{X}(x)$
+## $\displaystyle \mathbb{E}[X]=\sum_{x \in S}xp_{X}(x)$
 * Discrete version
 * $\displaystyle \mathbb{E}[X]$ is the expected value of random variable $\displaystyle X$
 * $\displaystyle p_{X}(x)$ is the [[PMF]] of  random variable $\displaystyle X$ for a value $\displaystyle x$

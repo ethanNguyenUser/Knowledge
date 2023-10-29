@@ -1,0 +1,2 @@
+#Math
+## $\displaystyle \cos(\alpha+\beta)=\cos \alpha \cos \beta-\sin \alpha \sin \beta$

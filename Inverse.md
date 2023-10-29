@@ -1,0 +1,5 @@
+---
+aliases:
+  - Inverses
+---
+#Math 

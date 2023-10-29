@@ -5,8 +5,8 @@
 * $\displaystyle n$ is the number of moles of the gas
 * $\displaystyle R$ is the [[R]]
 * $\displaystyle T$ is the temperature of the gas
-## $\displaystyle PV=Nk_{B}T$
+# Statistical Mechanics
+## $\displaystyle PV=Nk_{B}T=N\tau$
 * $\displaystyle N$ is the number of particles
 * $\displaystyle k_{B}$ is the [[Boltzmann Constant]]
-* Can be derived by Equipartion Theorem and [[Virial Theorem]]:
-1. 
+* Can be derived by [[Equipartition Theorem]] and [[Virial Theorem]]:

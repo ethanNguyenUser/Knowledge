@@ -2,5 +2,4 @@
 International: [[Metric System]]
 US/Liberia/Myanmar: [[Imperial System]]
 ## Units
-* [[R]]
-* 
+* [[Joule]] ($\displaystyle \mathrm{J}$)

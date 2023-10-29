@@ -1,7 +1,7 @@
 #Biology
 ## Topics
 * [[Spermatogenesis]]
-## Mnemonic
+## Sperm Pathway
 SEVE(N) UP
 1. [[Seminiferous Tubules]] (in Testes)
 2. [[Epididymus]]

@@ -8,7 +8,9 @@ aliases:
 * [[CDF]]
 * [[PDF]]
 * [[Random Variable Parameters]]
+* [[Multiple Random Variables]]
 * [[Utility Function]]
+* [[Central Limit Theorem]]
 ## Types
 * [[Discrete Random Variables]]
 * [[Continuous Random Variables]]

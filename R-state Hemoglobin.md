@@ -1,0 +1,2 @@
+#Biochemistry 
+The relaxed state of hemoglobin that has a higher binding affinity to $\displaystyle \ce{O_{2}}$ than [[T-state Hemoglobin]]. This state is predominant when there are many $\displaystyle \ce{O_{2}}$ bound to the hemoglobin subunits

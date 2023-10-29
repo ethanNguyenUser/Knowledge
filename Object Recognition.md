@@ -1,4 +1,4 @@
 #Biology 
 ## Topics
-* Gestalt Principles
+* [[Gestalt Principles]]
 * [[Depth Perception]]

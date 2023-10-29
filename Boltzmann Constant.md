@@ -1,3 +1,4 @@
+
 #Physics
 ## $\displaystyle k_{B}=\frac{PV}{NT}\mathrm{ \frac{J}{K}}=1.380649\mathrm{\cdot 10^{-23} \frac{J}{K}}$
 * Analogous to $\displaystyle R=\frac{PV}{nT}$, where $\displaystyle n$ is the number of moles of the ideal gas

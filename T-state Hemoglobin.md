@@ -1,0 +1,2 @@
+#Biochemistry 
+The tense state of hemoglobin that has a lower binding affinity to $\displaystyle \ce{O_{2}}$ than [[R-state Hemoglobin]]. This state is predominant when there are not that many $\displaystyle \ce{O_{2}}$ bound to the hemoglobin subunits

@@ -1,6 +1,6 @@
 #Math 
 Let $\displaystyle p$ be a prime number
-Prove: $\displaystyle p^{1/n}\neq \frac{a}{b}\forall a,b\in\mathbb{R}$
+Prove: $\displaystyle p^{1/n}\neq \frac{a}{b}~\forall~a,b\in\mathbb{R}$
 Assume for contradiction that $\displaystyle  p^{1/n}=\frac{a}{b}$
 $$
 \begin{align}

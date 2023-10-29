@@ -5,3 +5,4 @@
 * $\displaystyle r_{\alpha}$ is the position vector for the $\displaystyle \alpha$th particle
 * RHS of equation is the Virial of the system
 * Assumes a system that has come to equilibrium
+## $\displaystyle U=E+\ldots$

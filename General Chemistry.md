@@ -2,7 +2,7 @@
 ## Topics
 * [[Bohr Model]]
 * [[Heisenberg's Uncertainty Principle]]
-* [[Schrodinger's Equation]]
+* [[Schrodinger Equation]]
 * [[Orbitals]]
 * [[Periodic Trends]]
 * [[Spectroscopy and Spectrometry]]

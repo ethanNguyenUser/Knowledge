@@ -1,7 +1,8 @@
 #Math
 ## Topics
 * [[Calculus]]
-* [[Differential Equations]]
+* [[DEQs]]
 * [[Fourier Analysis]]
 * [[Real Analysis]]
 * [[Complex Analysis]]
+* [[AM-GM Inequality]]
