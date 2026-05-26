@@ -1,4 +1,5 @@
-import { Date, getDate } from "./Date"
+import { Date, getDate, getModifiedDate } from "./Date"
+import { QuartzPluginData } from "../plugins/vfile"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
@@ -19,6 +20,24 @@ const defaultOptions: ContentMetaOptions = {
   showComma: true,
 }
 
+function isBlogPage(fileData: QuartzPluginData): boolean {
+  const slug = fileData.slug ?? ""
+  if (/^blog\//i.test(slug)) return true
+
+  const tags = fileData.frontmatter?.tags
+  if (!tags) return false
+  const tagList = Array.isArray(tags) ? tags : [tags]
+  return tagList.some((tag) => String(tag).toLowerCase() === "blog")
+}
+
+function isSameCalendarDay(a: Date, b: Date): boolean {
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  )
+}
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   // Merge options with defaults
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
@@ -29,8 +48,24 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+      const publishedDate = getDate(cfg, fileData)
+      if (publishedDate) {
+        segments.push(<Date date={publishedDate} locale={cfg.locale} />)
+      }
+
+      if (isBlogPage(fileData)) {
+        const modifiedDate = getModifiedDate(fileData)
+        if (
+          modifiedDate &&
+          publishedDate &&
+          !isSameCalendarDay(modifiedDate, publishedDate)
+        ) {
+          segments.push(
+            <span class="content-meta-updated">
+              Updated <Date date={modifiedDate} locale={cfg.locale} />
+            </span>,
+          )
+        }
       }
 
       // Display reading time if enabled

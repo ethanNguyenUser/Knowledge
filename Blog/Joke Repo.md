@@ -1,20 +1,29 @@
+---
+created: 2026-5-1
+modified: 2026-5-25
+---
 #blog 
-![[Pasted image 20260524133342.png|300]]
-*Corn cheese (콘치즈) is my favorite appetizer. It's much of like my sense of humor: corny and cheesy.*
 
-Over the years, I've developed a collection of experimental jokes. The jokes here are the kind I'd conceptualize in the shower but not the kind I'd share with friends (they're rather niche and tend toward being pathologically tedious). My often wandering brain often generates parodies, literal extensions, or subversions of existing idioms and phrases, occasionally culminating in the creation of amusement: a joke. I hope you find these bits funny, though they may not be everyone’s cup of cheese.
+<p align="center">
+  <img src="Pasted image 20260524133342.png" width="30%">
+  <i>Corn cheese (콘치즈) is my favorite appetizer. It's much of like my sense of humor: corny and cheesy.</i>
+</p>
+Over the years, I've developed a collection of experimental jokes. The jokes here are the kind I'd conceptualize in the shower but not the kind I'd share with friends (they're rather niche and tend toward being pathologically tedious). My often wandering brain often generates parodies, literal extensions, or subversions of existing idioms and phrases. 
+
+Occasionally, these culminate in the creation of amusement: a joke.
+
+I hope you find these bits funny, though they may not be everyone’s cup of cheese.
 ## Expanders
 
 >[!quote]-  <span style="font-family: cursive;font-size:20px">They say failure builds character...</span>
 ></span><span style="font-family: Comic Sans MS;font-size: 18px">And the characters built different probably failed a lot 🤔</span>
->>[!note]- Explanation
+>>[!question]  Explanation
 >>>[!quote] [“Analyzing humor is like dissecting a frog. Few people are interested and the frog dies of it.”—E. B. White](https://www.bookbrowse.com/quotes/detail/index.cfm/quote_number/435/analyzing-humor-is-like-dissecting-a-frog-few-people-are-interested-and-the-frog-dies-of-it)
->>
 >>You expanded this explanation, so I assume you're also a nerd? Here's the autopsy: this joke goofily extends a clichéd colloquial idiom with the silly [built different](https://knowyourmeme.com/memes/built-different) meme. I love it when idioms are sacrilegiously misappropriated, especially by memes
 
 >[!quote]- I thought I had imposter's syndrome...
 >Turns out I was faking it. What a *fraud*.
->>[!note]-
+>>[!question]  Explanation
 >>One of my favorite kinds of jokes: the self-contradictory self-reference.
 >>One of my favorite TV shows, Xavier Renegade Angel, exploits this a lot:
 >>>[!example]-
@@ -25,7 +34,7 @@ Over the years, I've developed a collection of experimental jokes. The jokes her
 
 >[!quote]- I fell in some muddy grass.
 >Thank you Mother Nature for that gracias
->>[!note]-
+>>[!question]- Explanation
 >>A [bilingual pun](https://en.wikipedia.org/wiki/Bilingual_pun). One could theoretically mass-generate these by finding all the common homophones between pairs of languages and retrospectively matching the setup to the homophonic **pun**chline.
 
 >[!quote]- Give a man a fish...
@@ -41,10 +50,10 @@ Over the years, I've developed a collection of experimental jokes. The jokes her
 >>>>>>[!quote]- Teach a fish to man up 💪🐟...
 >>>>>>And the man will starve to death 🗿
 >>>>>>
->>>>>>>[!note]- Oh, you made it to the end of this [callout](https://obsidian.md/help/callouts) chain? 
+>>>>>>>[!attention]-  Oh, you made it to the end of this [callout](https://obsidian.md/help/callouts) chain? 
 >>>>>>>Congrats! Here's a medal, champ🏅
 >>>>>>
->>>>>>>[!info]- Note
+>>>>>>>[!info]- Storytime
 >>>>>>>I learned to fish as a kid, but I am unfortunately still allergic to seafood. However, at 22 years old, I learned I can eat canned tuna due to their [lower levels of parvalbumin,](https://pubmed.ncbi.nlm.nih.gov/20559001/)the protein that commonly causes the seafood allergy. So give a man a fish, and he may die; hermetically seal and retort-sterilize that fish, and he may finally enjoy a tuna sandwich!
 
 >[!quote]- The deliverer-liver deliverer delivers the livers of the deliverers.

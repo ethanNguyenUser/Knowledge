@@ -134,7 +134,7 @@ const highlightRegex = new RegExp(/==([^=]+)==/g)
 const commentRegex = new RegExp(/%%[\s\S]*?%%/g)
 // from https://github.com/escwxyz/remark-obsidian-callout/blob/main/src/index.ts
 const calloutRegex = new RegExp(/^\[\!([\w-]+)\|?(.+?)?\]([+-]?)/)
-const calloutLineRegex = new RegExp(/^> *\[\!\w+\|?.*?\][+-]?.*$/gm)
+const calloutLineRegex = new RegExp(/^>+ *\[\!\w+\|?.*?\][+-]?.*$/gm)
 // (?<=^| )             -> a lookbehind assertion, tag should start be separated by a space or be the start of the line
 // #(...)               -> capturing group, tag itself must start with #
 // (?:[-_\p{L}\d\p{Z}])+       -> non-capturing group, non-empty string of (Unicode-aware) alpha-numeric characters and symbols, hyphens and/or underscores
@@ -259,8 +259,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
       // pre-transform blockquotes
       if (opts.callouts) {
         src = src.replace(calloutLineRegex, (value) => {
-          // force newline after title of callout
-          return value + "\n> "
+          // force newline after title of callout; preserve blockquote depth for nested callouts
+          const prefix = value.match(/^>+/)?.[0] ?? ">"
+          return value + "\n" + prefix + " "
         })
       }
 
@@ -526,7 +527,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
               }
 
               const text = firstChild.children[0].value
-              const restOfTitle = firstChild.children.slice(1)
+              const restOfFirstParagraph = firstChild.children.slice(1)
               const [firstLine, ...remainingLines] = text.split("\n")
               const remainingText = remainingLines.join("\n")
 
@@ -537,18 +538,40 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 const collapse = collapseChar === "+" || collapseChar === "-"
                 const defaultState = collapseChar === "-" ? "collapsed" : "expanded"
                 const titleContent = match.input.slice(calloutDirective.length).trim()
-                const useDefaultTitle = titleContent === "" && restOfTitle.length === 0
+                const directiveOnlyInFirstText = text.trim() === firstLine.trim()
+                const hasHtmlInRest = restOfFirstParagraph.some((n) => n.type === "html")
+                const hasLinkInRest = restOfFirstParagraph.some((n) => n.type === "link")
+                const hasSubstantiveSiblingContent = restOfFirstParagraph.some(
+                  (n) =>
+                    n.type === "text" &&
+                    (n.value.length > 20 || /[.!?]/.test(n.value)),
+                )
+                // Body text wrongly merged into the callout line (no HTML) goes to content;
+                // inline HTML/formatting on the title line stays in the title.
+                // Links on the title line stay in the title when body is a separate block below.
+                const shouldMoveRestToBody =
+                  restOfFirstParagraph.length > 0 &&
+                  directiveOnlyInFirstText &&
+                  !hasHtmlInRest &&
+                  hasSubstantiveSiblingContent &&
+                  (!hasLinkInRest || calloutContent.length === 0)
+                const useDefaultTitle =
+                  titleContent === "" && restOfFirstParagraph.length === 0
+                const titlePhrasing: PhrasingContent[] = []
+                if (useDefaultTitle) {
+                  titlePhrasing.push({
+                    type: "text",
+                    value: capitalize(typeString).replace(/-/g, " "),
+                  })
+                } else if (titleContent.length > 0) {
+                  titlePhrasing.push({ type: "text", value: titleContent + " " })
+                }
+                if (!shouldMoveRestToBody) {
+                  titlePhrasing.push(...restOfFirstParagraph)
+                }
                 const titleNode: Paragraph = {
                   type: "paragraph",
-                  children: [
-                    {
-                      type: "text",
-                      value: useDefaultTitle
-                        ? capitalize(typeString).replace(/-/g, " ")
-                        : titleContent + " ",
-                    },
-                    ...restOfTitle,
-                  ],
+                  children: titlePhrasing,
                 }
                 const title = mdastToHtml(titleNode)
 
@@ -566,8 +589,22 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 }
 
                 const blockquoteContent: (BlockContent | DefinitionContent)[] = [titleHtml]
+                if (shouldMoveRestToBody) {
+                  if (calloutContent.length > 0 && calloutContent[0].type === "paragraph") {
+                    const firstContent = calloutContent[0] as Paragraph
+                    calloutContent[0] = {
+                      type: "paragraph",
+                      children: [...firstContent.children, ...restOfFirstParagraph],
+                    }
+                  } else {
+                    calloutContent.unshift({
+                      type: "paragraph",
+                      children: restOfFirstParagraph,
+                    })
+                  }
+                }
                 if (remainingText.length > 0) {
-                  blockquoteContent.push({
+                  calloutContent.unshift({
                     type: "paragraph",
                     children: [
                       {

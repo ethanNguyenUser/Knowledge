@@ -22,8 +22,9 @@ document.addEventListener("nav", () => {
     window.addCleanup(() => readerModeButton.removeEventListener("click", switchReaderMode))
   }
 
-  // Default reader mode to on for blog routes, but allow manual toggling afterwards.
-  isReaderMode = isBlogRoute() ? true : isReaderMode
+  // Blog: hide sidebars until hover. Notes/other: always show sidebars.
+  // Re-apply on each SPA navigation so blog state doesn't leak into notes.
+  isReaderMode = isBlogRoute()
   const initialMode = isReaderMode ? "on" : "off"
   document.documentElement.setAttribute("reader-mode", initialMode)
   emitReaderModeChangeEvent(initialMode)

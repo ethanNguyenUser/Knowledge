@@ -9,7 +9,7 @@ interface Props {
 
 export type ValidDateType = keyof Required<QuartzPluginData>["dates"]
 
-function parsePreferredFrontmatterDate(raw: unknown): Date | undefined {
+export function parsePreferredFrontmatterDate(raw: unknown): Date | undefined {
   if (raw === undefined || raw === null) return undefined
   if (raw instanceof globalThis.Date) return isNaN(raw.getTime()) ? undefined : raw
   if (typeof raw !== "string" && typeof raw !== "number") return undefined
@@ -37,6 +37,12 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
   if (preferredDate) return preferredDate
 
   return data.dates?.[cfg.defaultDateType]
+}
+
+export function getModifiedDate(data: QuartzPluginData): Date | undefined {
+  const fromFrontmatter = parsePreferredFrontmatterDate(data.frontmatter?.modified)
+  if (fromFrontmatter) return fromFrontmatter
+  return data.dates?.modified
 }
 
 export function formatDate(d: Date, locale: ValidLocale = "en-US"): string {

@@ -1,3 +1,9 @@
+@use "../../styles/variables.scss" as *;
+@use "sass:map";
+
+// Must match .page { max-width } in base.scss (desktop breakpoint + 300px)
+$pageMaxWidth: map.get($breakpoints, desktop) + 300px;
+
 .readermode {
   cursor: pointer;
   padding: 0;
@@ -22,6 +28,12 @@
 }
 
 :root[reader-mode="on"] {
+  // Space outside the sidebar column (viewport margin on wide screens + extra reach)
+  --page-max-width: #{$pageMaxWidth};
+  --reader-page-gutter: max(0px, calc((100vw - min(100vw, var(--page-max-width))) / 2));
+  --reader-edge-hover-buffer: clamp(48px, 5vw, 180px);
+  --reader-edge-hover-outset: calc(var(--reader-page-gutter) + var(--reader-edge-hover-buffer));
+
   & .sidebar.left,
   & .sidebar.right {
     opacity: 0;
@@ -29,6 +41,27 @@
 
     &:hover {
       opacity: 1;
+    }
+  }
+
+  // Widen hover target outward on desktop (into page margin + past sidebar edge)
+  @media all and ($desktop) {
+    & .sidebar.left::before,
+    & .sidebar.right::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: var(--reader-edge-hover-outset);
+      pointer-events: auto;
+    }
+
+    & .sidebar.left::before {
+      right: 100%;
+    }
+
+    & .sidebar.right::before {
+      left: 100%;
     }
   }
 }

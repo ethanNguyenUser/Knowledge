@@ -1,9 +1,14 @@
 @use "./variables.scss" as *;
 @use "sass:color";
 
+$callout-tint: color-mix(in srgb, var(--light) 94%, var(--color) 6%);
+$callout-types: note, abstract, info, todo, tip, success, question, warning, failure, danger, bug,
+  example, quote;
+
 .callout {
   border: 1px solid var(--border);
-  background-color: var(--bg);
+  // Opaque tint (matches ~6% alpha hex backgrounds) so nested callouts don't stack darker
+  background-color: $callout-tint;
   border-radius: 5px;
   padding: 0 1rem;
   overflow-y: hidden;
@@ -13,6 +18,11 @@
     display: grid;
     transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
     overflow: hidden;
+
+    // Don't clip nested callout titles inside an expanded parent
+    &:has(> .callout) {
+      overflow: visible;
+    }
 
     & > :first-child {
       margin-top: 0;
@@ -118,12 +128,19 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  // Nested callout: own color mixed against page bg (opaque — won't inherit parent hue)
+  & > .callout-content > .callout {
+    background-color: $callout-tint;
+  }
+
   &.is-collapsed {
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);
     }
 
     .callout-content {
+      overflow: hidden;
+
       & > * {
         transition:
           height 0.1s cubic-bezier(0.02, 0.01, 0.47, 1),
@@ -136,8 +153,26 @@
         padding-bottom: 0;
         padding-top: 0;
       }
-      & > :first-child {
+      // Pull-up is for text blocks only; nested callouts lose their title when shifted
+      & > :first-child:not(.callout) {
         margin-top: -1rem;
+      }
+    }
+  }
+}
+
+// Same-type nesting: alternate flat / tinted so depth doesn't keep darkening
+@each $type in $callout-types {
+  $chain: '.callout[data-callout="#{$type}"]';
+  @for $depth from 2 through 10 {
+    $chain: $chain + ' > .callout-content > .callout[data-callout="#{$type}"]';
+    @if $depth % 2 == 0 {
+      #{$chain} {
+        background-color: var(--light);
+      }
+    } @else {
+      #{$chain} {
+        background-color: $callout-tint;
       }
     }
   }
@@ -182,6 +217,8 @@
   }
 
   .callout-title-inner {
+    flex: 1;
+    min-width: 0;
     font-weight: $semiBoldWeight;
   }
 }
